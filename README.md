@@ -1,5 +1,8 @@
-Basic C code for reading in a BMP image, handling indexed color tables, and
-writing it to another BMP file.
+Basic C code for reading in a BMP image, reading the header information,
+color table, and image data, then writing to a file.
+
+The source code contains an extremely verbose amount of comments to explain
+the reason for every step along the process.
 
 <b>Build:</b>
 (from main directory)
